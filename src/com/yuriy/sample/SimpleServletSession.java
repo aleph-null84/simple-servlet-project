@@ -46,7 +46,7 @@ public class SimpleServletSession extends HttpServlet {
 		out.println("<p>Context parameter has user name: " + (String) context.getAttribute("sevedUserName") + "</p>");
 	
 		out.println("<p>Init parameter has default user name: " 
-		  + (String) this.getServletConfig().getInitParameter("defaultUser") + "</p>");
+		           + (String) this.getServletConfig().getInitParameter("defaultUser") + "</p>");
 	    
 	}
 
